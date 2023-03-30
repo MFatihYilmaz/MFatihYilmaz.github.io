@@ -215,6 +215,16 @@ footer ul li {
 #social-links {
     text-align: right;
 }
+button{
+    background-color: aquamarine;
+    font-size: large;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
 
 .fab {
     padding: 10px;
@@ -227,7 +237,7 @@ footer ul li {
 }
 
 #plans{
-    
+    padding: 100px;
     margin-top: 400px;
     height: 700px;
 }

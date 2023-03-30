@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
@@ -35,13 +36,22 @@
         </div>
     </header>    
 
-    <main>
+    <main id="main">
         <section id="showcase">
             <div class="content">
                 <h2>Benim Dünyama Hoşgeldiniz</h2>
             </div>
         </section>
         <section id="me">
+            <label for="bs"><b>Arka planı değiştirmek istediğiniz rengin hex kodunu girin ?</b></label>
+            <br>
+            <input  name="bs" type="text">
+            <br>
+            <small>Örnek:#FFEBCD</small>
+            <br>
+            <small id="colors"></small>
+            <br>
+            <button class="btn btn-primary">Yolla</button>
             <div class="container">
                 <div class="col-2 name">
                     <h3>
@@ -120,7 +130,7 @@
     <a href="#body" id="backtotop">
         <i class="fas fa-chevron-circle-up"></i>
     </a>
-   
+   <script src="script.js"></script>
 </body>
 </html>
 
