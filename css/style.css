@@ -215,7 +215,7 @@ footer ul li {
 #social-links {
     text-align: right;
 }
-button{
+.btn{
     background-color: aquamarine;
     font-size: large;
     height: 30px;
@@ -224,6 +224,14 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+#msc{
+    background-color:burlywood;
+    color: #fff;
+    font-size: 40px;
+    height: 100px;
+
+    margin: 5px;
 }
 
 .fab {

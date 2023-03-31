@@ -2,7 +2,8 @@ let dizi=[];
 let index=0
 let input=document.querySelector("input")
 let small=document.querySelector("#colors")
-document.querySelector("button").addEventListener("click",()=>{
+let aud=document.querySelector("audio")
+document.querySelector(".btn").addEventListener("click",()=>{
     dizi.push(input.value);
     document.querySelector("#main").style.backgroundColor = input.value;
     small.textContent="Girdiğiniz renkler "+dizi
@@ -10,9 +11,18 @@ document.querySelector("button").addEventListener("click",()=>{
     for(const x of dizi){
         console.log("Girdiğimiz renkler "+ x);
     }
+   
 })
 
-alert("Konsol kısmında diğer işlemler gözükmekte")
+document.querySelector("#msc").addEventListener("click",()=>{
+    aud.load()
+    aud.volume=0.5
+    aud.play()
+})
+window.addEventListener("load",()=>{
+  
+    alert("Asagidaki background işleminden sonra Konsola bakınız")
+})
 
 
 
